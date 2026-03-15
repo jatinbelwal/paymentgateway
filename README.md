@@ -1,5 +1,9 @@
 # Payment Gateway Simulation
 
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3-brightgreen)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-005C84)
+
 Demo project built with Java 17, Spring Boot, and MySQL to simulate a simple payment gateway workflow.
 
 ## Features
@@ -56,6 +60,8 @@ mvn spring-boot:run
 
 If Maven is not installed on your machine yet, install Maven first and then run the command above.
 
+GitHub Actions will also run the test suite automatically on pushes and pull requests.
+
 Application base URL:
 
 ```text
@@ -107,3 +113,7 @@ Simulation rules:
 ```bash
 mvn test
 ```
+
+## Suggested GitHub Description
+
+Spring Boot + MySQL demo project that simulates payment gateway transactions with success, failure, and pending flows.
